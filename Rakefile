@@ -7,12 +7,12 @@ require 'rake/rdoctask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |g|
-    g.name = 'vestal_versions'
+    g.name = 'nickjones-vestal_versions'
     g.summary = %(Keep a DRY history of your ActiveRecord models' changes)
     g.description = %(Keep a DRY history of your ActiveRecord models' changes)
-    g.email = 'steve@laserlemon.com'
-    g.homepage = 'http://github.com/laserlemon/vestal_versions'
-    g.authors = %w(laserlemon)
+    g.email = %w(steve@laserlemon.com darellik@gmail.com)
+    g.homepage = 'http://github.com/nickjones/vestal_versions'
+    g.authors = %w(laserlemon nickjones)
     g.add_dependency 'activerecord', '>= 2.1.0'
     g.add_development_dependency 'shoulda'
     g.add_development_dependency 'mocha'
