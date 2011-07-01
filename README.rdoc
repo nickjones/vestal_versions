@@ -168,6 +168,9 @@ There are a handful of exciting new additions in version 1.0 of <tt>vestal_versi
   
 * A <tt>versioned?</tt> convenience class method. If your user model is versioned, <tt>User.versioned?</tt> will let you know.
   
+== New to 1.0.3
+* Fixed Tagging class naming conflict with acts-as-taggable-on.
+
 == Thanks!
 
 Thank you to all those who post {issues and suggestions}[http://github.com/laserlemon/vestal_versions/issues]. And special thanks to:
