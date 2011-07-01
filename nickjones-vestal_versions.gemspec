@@ -40,6 +40,7 @@ Gem::Specification.new do |s|
     "lib/vestal_versions/version_tagging.rb",
     "lib/vestal_versions/versioned.rb",
     "lib/vestal_versions/versions.rb",
+    "nickjones-vestal_versions.gemspec",
     "test/changes_test.rb",
     "test/conditions_test.rb",
     "test/configuration_test.rb",
@@ -50,13 +51,12 @@ Gem::Specification.new do |s|
     "test/reset_test.rb",
     "test/reversion_test.rb",
     "test/schema.rb",
-    "test/tagging_test.rb",
     "test/test_helper.rb",
     "test/users_test.rb",
+    "test/version_tagging_test.rb",
     "test/version_test.rb",
     "test/versioned_test.rb",
-    "test/versions_test.rb",
-    "vestal_versions.gemspec"
+    "test/versions_test.rb"
   ]
   s.homepage = %q{http://github.com/nickjones/vestal_versions}
   s.require_paths = ["lib"]
